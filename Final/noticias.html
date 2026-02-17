@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameWiki | Noticias</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+<!-- Botón menú lateral -->
+<button class="btn btn-dark position-fixed top-0 start-0 m-3"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#menuLateral">
+  ☰
+</button>
+
+<!-- HEADER -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🎮 GameWiki</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+  <a class="nav-link" href="#" 
+     data-bs-toggle="offcanvas" 
+     data-bs-target="#menuLateral">
+     ☰ Menú
+  </a>
+</li>
+
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="noticias.html">Noticias</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- CONTENIDO PRINCIPAL DE NOTICIAS -->
+<main class="container my-5">
+  <h2 class="mb-4 slide-up">Noticias de Videojuegos</h2>
+
+  <!-- Noticia 1 -->
+  <article class="row mb-4 noticia">
+    <div class="col-md-4">
+      <img src="img/dif.jpg" class="img-fluid rounded" alt="PS6 y Switch 2">
+    </div>
+    <div class="col-md-8">
+      <h3>Sony podría retrasar la PS6 hasta 2029 y Nintendo subir el precio de la Switch 2</h3>
+      <p>
+        La industria atraviesa un momento inestable. Problemas económicos y escasez de memoria
+        podrían provocar un retraso en la próxima PlayStation 6 hasta 2029, mientras que
+        Nintendo estaría considerando aumentar el precio de la Switch 2 este mismo año.
+      </p>
+    </div>
+  </article>
+
+  <!-- Noticia 2 -->
+  <article class="row mb-4 noticia">
+    <div class="col-md-4">
+      <img src="img/state.jpg" class="img-fluid rounded" alt="State of Play febrero 2026">
+    </div>
+    <div class="col-md-8">
+      <h3>Todos los anuncios del State of Play del 12 de febrero de 2026</h3>
+      <p>
+        El último State of Play fue el más visto hasta la fecha. Durante el evento se
+        presentaron títulos como John Wick, Kena: Scars of Kosmora,
+        Metal Gear Solid Master Collection Vol. 2, Castlevania: Belmont's Curse
+        y God of War Trilogy Remake.
+      </p>
+    </div>
+  </article>
+
+  <!-- Noticia 3 -->
+  <article class="row mb-4 noticia">
+    <div class="col-md-4">
+      <img src="img/sons.jpg" class="img-fluid rounded" alt="God of War Sons of Sparta">
+    </div>
+    <div class="col-md-8">
+      <h3>El Metroidvania 2.5D God of War: Sons of Sparta ya está disponible</h3>
+      <p>
+        La nueva entrega inspirada en el universo de God of War ya puede jugarse.
+        El título ha recibido buenas valoraciones iniciales, aunque no ha estado
+        exento de polémica tras las críticas del creador original de la saga.
+      </p>
+    </div>
+  </article>
+
+  <!-- Noticia 4 -->
+  <article class="row mb-4 noticia">
+    <div class="col-md-4">
+      <img src="img/zero.jpg" class="img-fluid rounded" alt=".hack Z.E.R.O.">
+    </div>
+    <div class="col-md-8">
+      <h3>CyberConnect2 anuncia .hack//Z.E.R.O. por su 30 aniversario</h3>
+      <p>
+        El estudio japonés celebró su aniversario con el anuncio de un nuevo título
+        de la saga .hack. Se mostró un primer tráiler del proyecto, que todavía
+        se encuentra en desarrollo.
+      </p>
+    </div>
+  </article>
+
+  <!-- Noticia 5 -->
+  <article class="row mb-4 noticia">
+    <div class="col-md-4">
+      <img src="img/ida.jpg" class="img-fluid rounded" alt="Fallecimientos industria videojuegos">
+    </div>
+    <div class="col-md-8">
+      <h3>La industria despide a importantes figuras del videojuego</h3>
+      <p>
+        En los últimos días se confirmó el fallecimiento de Shutaro Iida,
+        director de varios Castlevania, y Hideki Sato, diseñador de consolas
+        históricas de SEGA como Mega Drive y Saturn.
+      </p>
+    </div>
+  </article>
+
+</main>
+
+<footer class="bg-dark text-white text-center p-4" id="contacto">
+  <h5 class="mb-3">Contacto</h5>
+
+  <div class="d-flex justify-content-center gap-4 fs-4 mb-3">
+
+    <a href="https://wa.me/5210000000000" target="_blank" class="text-white">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <a href="https://x.com/" target="_blank" class="text-white">
+      <i class="bi bi-twitter-x"></i>
+    </a>
+
+    <a href="https://facebook.com/" target="_blank" class="text-white">
+      <i class="bi bi-facebook"></i>
+    </a>
+
+    <a href="https://instagram.com/" target="_blank" class="text-white">
+      <i class="bi bi-instagram"></i>
+    </a>
+
+  </div>
+
+  <p class="mb-0">&copy; 2026 GameWiki - Escuela de Tecnología</p>
+</footer>
+s
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Menú lateral -->
+<div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="menuLateral">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">🎮 GameWiki</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <ul class="list-unstyled">
+      <li class="mb-3">
+        <a href="index.html" class="text-white text-decoration-none">Inicio</a>
+      </li>
+      <li class="mb-3">
+        <a href="noticias.html" class="text-white text-decoration-none">Noticias</a>
+      </li>
+      <li class="mb-3">
+        <a href="#contacto" class="text-white text-decoration-none">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
